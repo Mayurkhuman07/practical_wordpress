@@ -45,4 +45,25 @@ h2 {
 }
 li.product {
      width: 1% !important; 
+     padding: 0 16px 0px 19px!important;
+}
+ul {
+    list-style: none !important;
+}
+.star-rating {
+    padding: 15px 0 15px 0;
+}
+
+span.price {
+    display: block;
+    padding: 16px 0 25px 0;
+}
+.astra-shop-summary-wrap {
+    padding: 15px 0 41px 0;
+}
+.category_filter_container {
+    padding: 15px 0 61px 0;
+}
+.woocommerce.columns-4 {
+    padding: 56px 0 0 0;
 }
