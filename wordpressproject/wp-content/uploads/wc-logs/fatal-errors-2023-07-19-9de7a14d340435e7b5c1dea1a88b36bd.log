@@ -1,0 +1,48 @@
+2023-07-19T13:27:10+00:00 CRITICAL syntax error, unexpected single-quoted string "offset", expecting ")" in C:\xampp\htdocs\wordpressproject\wp-content\themes\arkatheme\home-page.php on line 212
+
+2023-07-19T14:13:03+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\wordpressproject\wp-content\themes\arkatheme\functions.php:186
+Stack trace:
+#0 C:\xampp\htdocs\wordpressproject\wp-includes\class-wp-hook.php(308): set_default_editor_to_classic('tinymce')
+#1 C:\xampp\htdocs\wordpressproject\wp-includes\plugin.php(205): WP_Hook->apply_filters('tinymce', Array)
+#2 C:\xampp\htdocs\wordpressproject\wp-includes\general-template.php(3793): apply_filters('wp_default_edit...', 'tinymce')
+#3 C:\xampp\htdocs\wordpressproject\wp-includes\class-wp-editor.php(184): wp_default_editor()
+#4 C:\xampp\htdocs\wordpressproject\wp-includes\general-template.php(3821): _WP_Editors::editor('', 'acf_content', Array)
+#5 C:\xampp\htdocs\wordpressproject\wp-content\plugins\advanced-custom-fields\includes\assets.php(533): wp_editor('', 'acf_content')
+#6 C:\xampp\htdocs\wordpressproject\wp-includes\class-wp-hook.php(308): ACF_Assets->print_uploader_scripts('')
+#7 C:\xampp\htdocs\wordpressproject\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpressproject\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpressproject\wp-admin\admin-footer.php(78): do_action('admin_footer', '')
+#10 C:\xampp\htdocs\wordpressproject\wp-admin\post.php(369): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\wordpressproject\wp-content\themes\arkatheme\functions.php on line 186
+
+2023-07-19T14:13:09+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\wordpressproject\wp-content\themes\arkatheme\functions.php:186
+Stack trace:
+#0 C:\xampp\htdocs\wordpressproject\wp-includes\class-wp-hook.php(308): set_default_editor_to_classic('tinymce')
+#1 C:\xampp\htdocs\wordpressproject\wp-includes\plugin.php(205): WP_Hook->apply_filters('tinymce', Array)
+#2 C:\xampp\htdocs\wordpressproject\wp-includes\general-template.php(3793): apply_filters('wp_default_edit...', 'tinymce')
+#3 C:\xampp\htdocs\wordpressproject\wp-includes\class-wp-editor.php(184): wp_default_editor()
+#4 C:\xampp\htdocs\wordpressproject\wp-includes\general-template.php(3821): _WP_Editors::editor('', 'acf_content', Array)
+#5 C:\xampp\htdocs\wordpressproject\wp-content\plugins\advanced-custom-fields\includes\assets.php(533): wp_editor('', 'acf_content')
+#6 C:\xampp\htdocs\wordpressproject\wp-includes\class-wp-hook.php(308): ACF_Assets->print_uploader_scripts('')
+#7 C:\xampp\htdocs\wordpressproject\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpressproject\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpressproject\wp-admin\admin-footer.php(78): do_action('admin_footer', '')
+#10 C:\xampp\htdocs\wordpressproject\wp-admin\post.php(369): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\wordpressproject\wp-content\themes\arkatheme\functions.php on line 186
+
+2023-07-19T15:22:30+00:00 CRITICAL syntax error, unexpected single-quoted string "offset", expecting ")" in C:\xampp\htdocs\wordpressproject\wp-content\themes\arkatheme\home-page.php on line 140
+
+2023-07-19T17:35:03+00:00 CRITICAL Unclosed '{' on line 70 in C:\xampp\htdocs\wordpressproject\wp-content\themes\arkatheme\home-page.php on line 300
+
+2023-07-19T17:35:19+00:00 CRITICAL Unclosed '{' on line 70 in C:\xampp\htdocs\wordpressproject\wp-content\themes\arkatheme\home-page.php on line 299
+
+2023-07-19T17:47:13+00:00 CRITICAL syntax error, unexpected token "endif", expecting end of file in C:\xampp\htdocs\wordpressproject\wp-content\themes\arkatheme\template-parts\content-page.php on line 21
+
+2023-07-19T17:47:27+00:00 CRITICAL syntax error, unexpected token "endif", expecting end of file in C:\xampp\htdocs\wordpressproject\wp-content\themes\arkatheme\template-parts\content-page.php on line 21
+
+2023-07-19T17:47:33+00:00 CRITICAL syntax error, unexpected token "endif", expecting end of file in C:\xampp\htdocs\wordpressproject\wp-content\themes\arkatheme\template-parts\content-page.php on line 21
+
+2023-07-19T18:55:41+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wordpressproject\wp-content\themes\arkatheme\single.php on line 165
+

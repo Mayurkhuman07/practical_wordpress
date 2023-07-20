@@ -1,0 +1,9 @@
+2023-07-18T17:36:57+00:00 CRITICAL Uncaught ArgumentCountError: get_headers() expects at least 1 argument, 0 given in C:\xampp\htdocs\wordpressproject\wp-content\themes\arkatheme\front-page.php:1
+Stack trace:
+#0 C:\xampp\htdocs\wordpressproject\wp-content\themes\arkatheme\front-page.php(1): get_headers()
+#1 C:\xampp\htdocs\wordpressproject\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpressproject\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpressproject\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpressproject\wp-content\themes\arkatheme\front-page.php on line 1
+
